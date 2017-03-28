@@ -1,0 +1,182 @@
+﻿  /*  自定义展示车辆数据（包括组织名和车辆） */
+      .orgFrm
+      {
+          min-width:200px;
+          width:auto;
+          background-color:#eee;
+          height:auto;
+      }
+      
+      
+      .orgName,.orgName:visited
+      {
+         width:auto;
+         text-align:left;
+         padding-left:25px;
+         height:25px; 
+         color:#2671A6;
+         line-height:25px;
+         cursor:pointer;
+         background-color:#eee;
+         background-image:url("../pic/resultset_next.png");
+         background-position:6px 3px;
+         background-repeat:no-repeat;
+      }
+      
+      .orgNameSelect
+      {
+         background-image:url("../pic/capacity_video_mask.png");
+         background-position:6px 3px;
+         background-repeat:no-repeat;
+         color:green;
+      }
+      
+      .SecondItem,SecondItem:visited
+      {
+        margin-left:15px;
+      }
+    
+    
+      .orgName:hover
+      {
+          background-color:White;
+      }
+    
+
+      /* 车辆的复选框勾选样式 */
+       .carNoChecked,.carChecked,.orgNoCheck,.orgChecked,.carImChecked,.orgImChecked
+       {
+         height:15px;
+         width:15px;
+         float:left;
+         margin-top:2px;
+         padding-left:4px;
+         background-image:url('../pic/tree_checkbox_0.gif');
+         backgound-position:2px 10px;
+         background-repeat:no-repeat;
+       }
+
+
+       .carChecked,.orgChecked
+       {
+         background-image:url('../pic/tree_checkbox_1.gif');
+       }
+
+       .carImChecked,.orgImChecked
+       {
+         background-image:url('../pic/tree_checkbox_2.gif');
+       }
+
+
+       .carFrm
+       {   
+           min-height:30px;
+           height:auto;
+           min-width:250px;
+           width:auto;
+           display:none;
+           margin-left:10px;
+           border-bottom:1px dashed #888;
+           border-left:1px dashed #888;
+           overflow:hidden;
+       }
+       
+    
+      .carItem,.searchCarItem,.carItem:visited,.searchCarItem:visited
+      {
+          height:20px;
+          line-height:20px;
+          width:auto;
+          padding:1px 0px 1px 10px;
+      }
+    
+      .carItem:hover,.searchCarItem:hover
+      {
+          background-color:#FBEFD5;
+      }
+      .carItemSelected
+      {
+          background-color:#ccc;
+      }
+      
+      .match
+      {
+           background-color:#778899;
+      }
+     
+     .carIconFrm
+     {
+         height:20px;
+         line-height:20px;
+         width:20px;
+         margin-top:0px;
+         border:1px solid #ccc;
+         float:left;
+         background-color:White;
+         -moz-border-radius: 5px;  
+         -webkit-border-radius: 5px;
+        border-radius: 5px;
+     }
+    
+
+
+     .carIcon
+     {
+         float:left;
+         margin-top:2px;
+     }
+    
+
+    .carItemFrm{
+       min-width:300px;
+       width:auto;
+       height:20px;
+    }
+
+    
+    .carContent
+    {   
+        min-width:200px;
+        width:auto;
+        overflow:hidden;
+        height:20px;
+        float:left;
+    }
+    
+
+      .carFont
+      {
+          height:20px;
+          line-height:20px;
+          width:auto;
+          overflow:hidden;
+          font-family:"微软雅黑";
+          cursor:default;
+      }
+      .memoInfo
+      {  
+         color:#aaa;
+      }
+      
+      .carStatus
+      {
+         min-width:200px;
+         width:auto;
+         font-size:9pt;
+         overflow:hidden;
+         color:#aaa;
+         height:20px;
+         line-height:20px;
+      }
+    
+      .carMap
+      {
+          float:right;
+          width:10px;
+          height:40px;
+      }
+      
+      .hideDiv
+      {
+          display:none;
+      }

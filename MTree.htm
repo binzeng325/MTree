@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>MTree Demo</title>
+    <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
+    <script src="js/MTree.js" type="text/javascript"></script>
+    <script src="js/demo.js" type="text/javascript"></script>
+    <link href="css/icon.css" rel="stylesheet" type="text/css" />
+    <link href="css/mTree.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div style="min-width:200px;width:auto;min-height:300px;height:auto;">
+
+<div >
+ <input type="button" onclick="autoGet()" id="autoBtn" value="自动加载树和结点" />
+ 每个组织下节点个数<input type="text" id="theNum"/>
+|
+<input type="button" onclick="loadFoData()" id="loadFoBtn"  value="加载组织树" />
+<input type="button" onclick="loadFiData()" id="loadFiBtn" value="加载组织下子结点" />
+</div>
+<hr />
+ <div id="theTree" style="float:left;width:400px;height:600px;border:1px solid #ccc;overflow:auto">
+
+ </div>
+
+ <div style="width:800px;margin-left:10px;float:left;padding:5px;overflow:auto">
+ <div>
+
+<input type="button" onclick="testGetFo()" value="获取组织id" />
+<input type="button" onclick="getSelected()" value="获取当前点击子节点" />
+<input type="button" onclick="getCheckedCar()" value="获取当前选中节点" />|
+<input type="button" onclick="updateCar()" value="更新选中节点" />
+<input type="button" onclick="query()" value="模糊查询" />
+ 子节点名称<input type="text" id="theFiText"/>
+ <br />
+ <input type="button" onclick="checkAll()" value="全选" />
+ <input type="button" onclick="uncheckAll()" value="取消全选" />
+ <input type="button" onclick="uncheckSelect()" value="取消当前点击的节点选中" />
+ <input type="button" onclick="checkSelect()" value="设置当前点击的节点选中" />
+ </div>
+ <hr />
+ <div id="showText" style="height:600px;border:1px solid #ccc;padding:5px;overflow:auto" >
+ 
+ </div>
+ </div>
+</div>
+</body>
+</html>
+

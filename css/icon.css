@@ -1,0 +1,43 @@
+
+/*******************************/
+.icon-status
+{
+     background-image: url(../pic/mainImg.png);/*大多数图片*/
+     
+     height:16px;
+     width:16px;
+     background-position:-162px -276px;    
+}
+
+.icon-status-offline
+{
+     background-image: url(../pic/mainImg.png);/*大多数图片*/
+     height:16px;
+     width:16px;
+     background-position:-198px -259px;    
+         
+}
+
+/* 有警报 */
+.icon-status-onlineWarn
+{
+     background-image: url(../pic/mainImg.png);/*大多数图片*/
+     height:16px;
+     width:16px;
+     background-position:-180px -259px;     
+}
+
+
+.icon-notSure
+{
+     background-image: url(../pic/mainImg.png);/*大多数图片*/
+     height:16px;
+     width:16px;
+     background-position:-162px -259px;   
+}
+/*******************************************/
+
+.icon-group
+{
+     background:url('../pic/group.png') no-repeat;  
+}
